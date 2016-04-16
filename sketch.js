@@ -3,14 +3,14 @@ var sounds = [];
 var time = [];
 
 var soundFiles = [
-  "sounds/1.mp3", "sounds/3.mp3",
-  "sounds/4.mp3", "sounds/5.mp3",
-  "sounds/6.mp3", "sounds/8.mp3",
-  "sounds/10.mp3", "sounds/11.mp3",
-  "sounds/13.mp3", "sounds/14.mp3"
+  "sounds/21.mp3", "sounds/17.mp3",
+  "sounds/23.mp3", "sounds/6.mp3",
+  "sounds/9.mp3", "sounds/20.mp3",
+  "sounds/12.mp3", "sounds/14.mp3",
+  "sounds/22.mp3", "sounds/19.mp3"
 ];
 
-var keys = ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";"]; // find key code for ";"
+var keys = ["a", "s", "d", "f", "g", "h", "j", "k", "l", 186]; // find key code for ";"
 
 function preload() {
   for (var i = 0; i < soundFiles.length; i++) {
